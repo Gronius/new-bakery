@@ -515,6 +515,32 @@ address {
 
 
 
+/* 
+.checkbox {
+  position: relative;
+}
+.checkbox-input {
+  appearance: none;
+}
+.checkbox-input:checked + .checkbox-label::before {
+  background-color: green;
+  background-image: url();
+}
+.checkbox-label {
+  padding-left: 24px;
+}
+.checkbox-label::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 4px;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 1px solid blueviolet;
+} */
+
+
 
 
 /* якщо потрібно  поле для тексту */
