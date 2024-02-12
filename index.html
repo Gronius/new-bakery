@@ -31,6 +31,16 @@
           <button class="header__button button modal-btn-open" type="button">
             Замовити дзвінок
           </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close"
+             type="button">Close
+            </button>
+          </div>
         </div>
       </div>
     </header>
@@ -235,7 +245,8 @@
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
 
-              <!-- forma -->
+               <!-- forma -->
+               
               <form name="contact-form" autocomplete="off">
                 <div class="contact-section__form-field input">
                   <label class="input__label visually-hidden" for="user-name">
@@ -299,9 +310,9 @@
             </iframe>
           </div>
         </div>
-      </section>
+      </section> 
     </main>
-    <footer class="footer">
+     <footer class="footer"> 
       <div class="container">
         <div class="footer-container">
           <nav class="footer-nav">
@@ -362,11 +373,13 @@
           </address>
         </div>
       </div>
-    </footer>
+    </footer> 
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
       <div class="modal">
-        <button class="modal__btn-close modal-btn-close" type="button">Close</button>
+        <button class="modal__btn-close modal-btn-close" type="button">
+          Close
+        </button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
 
