@@ -106,7 +106,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="chefs-section section" id="chefs-section">
+      <section class="chefs-section section" id="chefs-section">
         <div class="container">
           <h2
             class="chefs-section__title section__title section__title--centered"
@@ -159,41 +159,40 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="formats-section section" id="formats-section">
+      </section>
+      <section class="formats-section section" id="formats-section">
         <div class="container">
-          <h2
-            class="formats-section__title section__title section__title--centered"
-          >
-            Формати
+          <h2 class="formats-section__title section__title section__title--centered"
+          > Формати
           </h2>
-          <div class="formats-section__container">
-            <button class="carousel-button prev" type="button">
+          <div class="formats-section__slider">
+            <button class="formats-section__button carousel-button prev" type="button">
               <svg width="16" height="16">
                 <use href="./images/icons.svg#icon-arrow"></use>
               </svg>
             </button>
-            <ul class="formats-section__list">
-              <li class="formats-section__item">
+          <div class="formats-section__container swiper-container">
+            <ul class="formats-section__list swiper-wrapper">
+              <li class="swiper-slide">
                 <article class="format-card">
-                  <img
-                    class="format-card__image"
-                    src="./images/walrus-format.jpg"
-                    alt="Walrus-format"
-                  />
-                  <h3 class="format-card__title" lang="en">Walrus</h3>
-                  <div class="format-card__text">
-                    <p>Площа: до 120 м2</p>
-                    <p>Меню: розширене меню</p>
-                    <p>
-                      Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
-                      офіціанти-різнороби
-                    </p>
-                    <p>Посадкові місця: є</p>
-                  </div>
+                 <img
+                      class="format-card__image"
+                      src="./images/walrus-format.jpg"
+                      alt="Walrus-format"
+                    />
+                    <h3 class="format-card__title" lang="en">Walrus</h3>
+                    <div class="format-card__text">
+                      <p>Площа: до 120 м2</p>
+                      <p>Меню: розширене меню</p>
+                      <p>
+                        Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
+                        офіціанти-різнороби
+                      </p>
+                      <p>Посадкові місця: є</p>
+                    </div>
                 </article>
               </li>
-              <li class="formats-section__item">
+              <li class="swiper-slide">
                 <article class="format-card">
                   <img
                     class="format-card__image"
@@ -212,7 +211,64 @@
                   </div>
                 </article>
               </li>
-              <li class="formats-section__item">
+              <li class="swiper-slide">
+                <article class="format-card">
+                  <img
+                    class="format-card__image"
+                    src="./images/handlebar-format.jpg"
+                    alt="Handlebar-format"
+                  />
+                  <h3 class="format-card__title" lang="en">Handlebar</h3>
+                  <div class="format-card__text">
+                    <p>Площа: до 15 м2</p>
+                    <p>Меню: найпопулярніші позиції меню</p>
+                    <p>
+                      Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря, 2
+                      офіціанти-різнороби
+                    </p>
+                    <p>Посадкові місця: відсутні</p>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="format-card">
+                 <img
+                      class="format-card__image"
+                      src="./images/walrus-format.jpg"
+                      alt="Walrus-format"
+                    />
+                    <h3 class="format-card__title" lang="en">Walrus</h3>
+                    <div class="format-card__text">
+                      <p>Площа: до 120 м2</p>
+                      <p>Меню: розширене меню</p>
+                      <p>
+                        Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
+                        офіціанти-різнороби
+                      </p>
+                      <p>Посадкові місця: є</p>
+                    </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="format-card">
+                  <img
+                    class="format-card__image"
+                    src="./images/horseshoe-format.jpg"
+                    alt="Horseshoe-format"
+                  />
+                  <h3 class="format-card__title" lang="en">Horseshoe</h3>
+                  <div class="format-card__text">
+                    <p>Площа: до 25 м2</p>
+                    <p>Меню: найпопулярніші позиції меню</p>
+                    <p>
+                      Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря, 2
+                      офіціанти-різнороби
+                    </p>
+                    <p>Посадкові місця: відсутні</p>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
                 <article class="format-card">
                   <img
                     class="format-card__image"
@@ -232,15 +288,23 @@
                 </article>
               </li>
             </ul>
-            <button class="carousel-button next" type="button">
+            <div class="pagination">
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+            </div>
+          </div>
+
+            <button class="formats-section__button carousel-button next" type="button">
               <svg width="16" height="16">
                 <use href="./images/icons.svg#icon-arrow"></use>
               </svg>
             </button>
           </div>
         </div>
-      </section> -->
-      <!-- <section class="contact-section section" id="contact-section">
+      </section>
+      <section class="contact-section section" id="contact-section">
         <div class="container">
           <div class="contact-section__container">
             <div class="contact-section__form">
@@ -249,7 +313,7 @@
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
 
-              <!-- forma -->
+               <!-- forma -->
 
               <form name="contact-form" autocomplete="off">
                 <div class="contact-section__form-field input">
@@ -305,8 +369,6 @@
             <iframe
               class="contact-section__map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4272.047158300808!2d30.48888731215942!3d50.45647630651374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCDQo9C60YDQsNGX0L3QsCwgMDIwMDA!5e0!3m2!1suk!2ssk!4v1706077541813!5m2!1suk!2ssk"
-              width="603"
-              height="595"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
@@ -314,65 +376,67 @@
             </iframe>
           </div>
         </div>
-      </section> -->
+      </section>  
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer-container">
-          <nav class="footer-nav">
-            <div class="footer-logo">
+        <div class="footer__container">
+          <nav class="footer__nav">
+            <div class="footer__logo">
               <a href="#">
                 <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
               </a>
             </div>
 
-            <ul class="footer-menu">
+            <ul class="footer__menu">
               <li><a class="link" href="#">Наші традиції</a></li>
               <li><a class="link" href="#">Шеф-кухарі</a></li>
               <li><a class="link" href="#">Формати</a></li>
               <li><a class="link" href="#">Контакти</a></li>
             </ul>
           </nav>
-          <address class="footer-address">
-            <ul class="address-list">
+          <address class="footer__address">
+            <div class="footer__contacts">
+            <ul class="footer__address-list">
               <li>
-                <a class="address-link" href="tel:+380960000000"
+                <a class="footer__address-link" href="tel:+380960000000"
                   >+ 38 (096) 000 00 07</a
                 >
               </li>
               <li>
-                <a class="address-link" href="mailto:shopbakery@gmail.com"
+                <a class="footer__address-link" href="mailto:shopbakery@gmail.com"
                   >shopbakery@gmail.com</a
                 >
               </li>
               <li>
                 <a
-                  class="address-link"
+                  class="footer__address-link"
                   href="https://maps.app.goo.gl/g6LaZMuWv5UyDZ9k8"
                   target="_blank"
                   >Україна, м. Київ, вул. Січових Стрільців 54
                 </a>
               </li>
-              <li>
+            </ul>
+
+               <div class="footer__socials">
                 <a href="#">
-                  <svg class="address-icon" width="32" height="32">
+                  <svg class="footer__address-icon" width="32" height="32">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
-              </li>
-              <li>
                 <a href="#">
-                  <svg class="address-icon" width="32" height="32">
+                  <svg class="footer__address-icon" width="32" height="32">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
-              </li>
-            </ul>
-            <div class="address-info">
-              <a class="address-link" href="#" target="_blank"
+               </div> 
+            </div>   
+               
+            <div class="footer__address-info">
+              <a class="footer__address-link" href="#" target="_blank"
                 >Політика конфіденційності</a
               >
-              <p class="address-copyright">&copy; 2022 Дані захищені</p>
+              <p class="footer__address-copyright">&copy; 2024 Дані захищені</p>
             </div>
           </address>
         </div>
