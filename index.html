@@ -37,9 +37,38 @@
             </svg>
           </button>
           <div class="mobile-menu">
-            <button class="mobile-menu__btn-close menu-btn-close" type="button"></button>
-              Close
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">
+              <!-- Close -->
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-icon"></use>
+              </svg>
             </button>
+             <a class="mobile-menu__logo menu-btn-close" href="/">
+              <img
+                src="./images/logo-dark.svg"
+                alt="Логотип сучасної пекарні"
+              />
+            </a>
+            <ul class="mobile-menu__list">
+              <li>
+                <a class="mobile-menu__link menu-btn-close" href="#traditions-section">
+                  Наші традиції
+                </a>
+              </li>
+              <li>
+                <a class="mobile-menu__link menu-btn-close" href="#chefs-section">
+                  Шеф-кухарі
+                </a>
+              </li>
+              <li>
+                <a class="mobile-menu__link menu-btn-close" href="#formats-section">Формати</a>
+              </li>
+              <li>
+                <a class="mobile-menu__link menu-btn-close" href="#contact-section">
+                  Контакти
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -326,6 +355,7 @@
                     id="user-name"
                     name="user-name"
                     placeholder="Ім'я"
+                    required
                   />
                 </div>
 
@@ -339,6 +369,7 @@
                     id="user-tel"
                     name="user-tel"
                     placeholder="Телефон"
+                    required
                   />
                 </div>
 
@@ -352,6 +383,7 @@
                     id="user-email"
                     name="user-email"
                     placeholder="Електронна пошта"
+                    required
                   />
                 </div>
 
@@ -446,10 +478,13 @@
     <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal__btn-close modal-btn-close" type="button">
-          Close
+          <!-- Close -->
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-icon"></use>
+          </svg>
         </button>
-        <h2>Замовити дзвінок</h2>
-        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <h2 class="modal__title">Замовити дзвінок</h2>
+        <p class="modal__text">Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
 
         <form name="modal-form" autocomplete="off">
           <!-- <fieldset>
